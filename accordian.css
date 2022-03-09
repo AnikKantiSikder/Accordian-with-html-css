@@ -1,0 +1,23 @@
+
+/* MAIN COLOR: #087F5B
+GREY COLOR: #343a40 */
+
+* {
+    margin: 0;
+    padding: 0;box-sizing: border-box;
+}
+
+/* GENERAL STYLES */
+body {
+    font-family: 'Inter', sans-serif;
+    color: #343a40;
+}
+
+.accordian {
+    width: 700px;
+    /* To center a element inside od it's parent: */
+    /* Margin: Top and Bottom=some value and
+               Left and Right:auto*/
+    margin: 100px auto;  
+    background-color: #343a40;
+}
