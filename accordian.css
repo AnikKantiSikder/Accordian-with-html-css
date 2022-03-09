@@ -11,13 +11,51 @@ GREY COLOR: #343a40 */
 body {
     font-family: 'Inter', sans-serif;
     color: #343a40;
+    line-height: 1;
 }
 
 .accordian {
     width: 700px;
     /* To center a element inside od it's parent: */
     /* Margin: Top and Bottom=some value and
-               Left and Right:auto*/
-    margin: 100px auto;  
-    background-color: #343a40;
+       Left and Right:auto
+    */
+    margin: 100px auto;
+    /* background-color: #343a40; */
 }
+
+.item {
+    
+}
+.number, .text {
+    font-size: 24px;
+    font-weight: 500;
+    color: #087F5B;
+}
+
+.icon {
+    width: 24px;
+    height: 24px;
+    stroke: #087F5B;
+}
+.hidden-box {
+
+}
+.hidden-text { 
+    line-height: 1.6;
+    margin-bottom: 24px;
+}
+
+.hidden-list {
+    color: #868e96;
+    margin-left: 20px;
+    /* Using flex box to create gap between list items horizontally */
+    display: flex;
+    flex-direction: column;
+    gap: 12px;
+}
+
+/* OR we can create gap traditionally like this */
+/* .hidden-list li {
+    margin-bottom: 12px;
+} */
